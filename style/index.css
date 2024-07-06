@@ -1,0 +1,62 @@
+/* navbar style code  */
+
+.open-sans-practicess {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.dark-02{
+   color: #474747;
+}
+
+.nav-var{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    
+}
+
+
+
+nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+.nav-ar{
+    color: #fd6e0a;
+}
+
+.nav-tittle{
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+/* this is all primary button code  */
+
+.btn-primary{
+    background-color: #fd6e0a;
+    font-weight: bold;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 5px;
+   font-size: 20px;
+}
