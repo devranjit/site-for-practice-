@@ -212,3 +212,56 @@
     box-shadow: 2px -1px 48px 11px rgba(230,230,230,1);
     margin-right: 15px;
 }
+
+/* services section ends here  */
+
+
+.summary h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.edu-section{
+    display: flex;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.edu-one{
+   padding-right: 30px;
+   
+}
+.edu-two{
+   padding-right: 30px;
+   
+}
+
+
+.deg-edu h1{
+    font-size: 10px;
+    padding: 5px 0;
+}
+
+.deg-edu h3{
+   
+    font-size: 10px;
+}
+
+.deg-edu p{
+    font-size: 10px;
+    padding-right: 100px;
+}
+
+.edu-one h1{
+    font-size: 15px;
+    padding: 15 0px;
+}.edu-two h1{
+    font-size: 15px;
+    padding: 15 0px;
+}
+
+.res-btn{
+   text-align: center;
+    
+}
