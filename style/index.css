@@ -1,62 +1,61 @@
-/* navbar style code  */
-
-.open-sans-practicess {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-.dark-02{
-   color: #474747;
-}
-
-.nav-var{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 20px;
+.main-div{
+    max-width: 875px;
+    margin: 0 auto;
     
 }
-
-
-
-nav ul li{
-    list-style-type: none;
-    margin-right: 50px;
-    
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav ul li a{
-    text-decoration: none;
-}
-
-
-.nav-ar{
-    color: #fd6e0a;
-}
-
-.nav-tittle{
-    font-size: 30px;
-}
-
-nav ul{
-    display: flex;
-    align-items: center;
-
-
-}
-
-
-/* this is all primary button code  */
-
+/* this is the btn-main style  -------------------------------------------*/
 .btn-primary{
-    background-color: #fd6e0a;
-    font-weight: bold;
-   color: #fff;
-   padding: 10px 20px;
-   border-radius: 5px;
-   font-size: 20px;
+    background-color: #FD6E0A;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+
+/* this background one color */
+
+.bg-one{
+    background-color: #FFF8F3;
+}
+
+.dark01{
+ color: #474747;
+}
+
+/* this are header menu style css */
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px ;
+}
+
+.header-menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.header-menu ul li{
+    list-style: none;
+    
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+
+}
+
+.header-menu h1 span{
+    color: #FD6E0A;
 }
